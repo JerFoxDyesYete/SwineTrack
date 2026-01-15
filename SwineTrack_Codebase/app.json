@@ -1,0 +1,66 @@
+{
+  "expo": {
+    "name": "SwineTrack",
+    "slug": "swinetrack",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/sw.png",
+    "scheme": "swinetrack",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "ios": {
+      "infoPlist": {
+        "NSAppTransportSecurity": {
+          "NSAllowsArbitraryLoads": true
+        }
+      }
+    },
+    "android": {
+      "package": "com.jerfox17.swinetrack",
+      "amdroid": {
+        "foregroundImage": "./assets/images/sw.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "permissions": [
+        "INTERNET",
+        "ACCESS_WIFI_STATE"
+      ]
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ],
+      "expo-font",
+      "expo-web-browser",
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "usesCleartextTraffic": true
+          }
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "63dbe028-9c57-44d9-b429-72402e16769e"
+      }
+    }
+  }
+}
