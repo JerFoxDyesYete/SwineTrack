@@ -57,16 +57,10 @@ SwineTrack aims to support early health risk detection and biosecurity awareness
 
 👥 Developers:
 
-Trent Archie Drich J. Aviola
+- Aviola, Trent Archie Drich J. 
+- Ayop, Avah Denesse E. 
+- Cuarteros, Jerry C. 
+- Daday, Elen Grace 
+- Sumonod, Marielle Anne 
 
-Avah Denesse E. Ayop
-
-Jerry C. Cuarteros
-
-Elen Grace Daday
-
-Marielle Anne Sumonod
-
-
-December 2025
 
